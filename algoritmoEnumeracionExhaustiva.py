@@ -1,8 +1,9 @@
-respuesta = 0;
+respuesta = 0
 numero_Usuario = int(input("Escribe un numero entero : "))
 
-while respuesta **2 < numero_Usuario:
+while respuesta ** 2 < numero_Usuario:
     respuesta += 1
+    print(f'La respuesta tiene el valor de {respuesta}')
 if respuesta ** 2 == numero_Usuario:
     print(f'La raiz cuadrada de {numero_Usuario} es {respuesta}')
 else:
